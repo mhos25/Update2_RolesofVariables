@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [parser]">
+  <test name="TestNG tests(failed)">
+    <classes>
+      <class name="MainNGTest">
+        <methods>
+          <include name="CreateTempDir"/>
+          <include name="runningCode_outputsExpectedText" invocation-numbers="0"/>
+          <include name="deleteTempDir"/>
+        </methods>
+      </class> <!-- MainNGTest -->
+    </classes>
+  </test> <!-- TestNG tests(failed) -->
+</suite> <!-- Failed suite [parser] -->

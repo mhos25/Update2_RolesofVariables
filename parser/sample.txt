@@ -1,0 +1,1 @@
+int counter = 0; do{print("Hello"); counter= counter -1;}while(counter >= 0); int i; i =3; while(i > 0){ print("Salut"); i = i - 1;} int k = 2; while(k>=0){println(1 ); k = k -1;}
